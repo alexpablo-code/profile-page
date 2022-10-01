@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+.header-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.so-button {
+    background-color: darkcyan;
+    color: white;
+    padding: 3px 8px;
+}
+
+.h-link {
+    margin: 10px 15px;
+    color: lightgrey;
+}
+
+.mp-link {
+    font-weight: bold;
+    color: white;
+}
+
+.main-body {
+    display: flex;
+}
+
+.main-content {
+    flex: 2;
+    margin: 20px;
+}
+
+.profile-box, .education-box {
+    border: 3px solid lightgray;
+    width: inherit;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.banner-profile {
+    flex: 1;
+    height: 65px;
+    background-color: darkturquoise;
+    display:block;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.profile-pic {
+    height: 120px;
+    margin: 3px 10px 0px;
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.user-name, .user-location, .user-description, .edit-profile {
+    margin: 15px 25px;
+}
+
+.user-location {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.location-marker {
+    height: 20px;
+}
+.gear-icon {
+    height: 15px;
+}
+
+.gear-icon, .location-marker {
+    margin-right: 10px;
+}
+
+.edit-link {
+    color: darkblue;
+}
+
+
+.education-banner {
+    flex: 1;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+
+}
+
+.education-title {
+    margin: 0px 25px;
+}
+
+.dojo-title {
+    font-weight: bold;
+    margin: 15px 25px 5px;
+}
+
+.dojo-description {
+    margin: 15px 25px;
+}
+
+.dojo-class-date {
+    color: grey;
+    font-family: monospace;
+    margin-left: 25px;
+}
+
+.side-menu {
+    flex: 1;
+}
+
+.requests-box, .connections-box {
+    width: inherit;
+    border: 3px solid lightgray;
+    margin: 20px;
+}
+
+.connections-box {
+    margin-bottom: 0px;
+}
+
+.request-banner, .connections-banner {
+    flex: 1;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.notification-number {
+    color: black;
+    background-color: lightgray;
+    border: 0px solid;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.request-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px 0px;
+}
+
+.side-nav-profiles, .accept-decline {
+    height: 25px;
+    width: 25px;
+}
+
+.side-nav-profiles {
+    border-radius: 100%;
+    border: 0px;
+}
+.request-name {
+}
+
+.request-line-test, .connections-line, .view-more {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.request-line-section-1, .request-line-section-3, .request-line-section-4, .connections-line-section-1, .view-more-section-1 {
+    flex: 1;
+}
+
+.request-line-section-1 {
+    margin-right: 5px;
+}
+
+.request-line-section-2, .connections-line-section-2, .view-more-section-3 {
+    flex: 3;
+    margin: 5px;
+}
+
+.view-more {
+    width: inherit;
+    border: 3px solid lightgray;
+    margin: 0px 20px;
+    padding: 10px 0px;
+
+}
+
+.view-more-section-1 {
+    margin-left: 20px;
+}
